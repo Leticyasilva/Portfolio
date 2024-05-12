@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#181816;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display:flex;
+}
+
+header{
+    padding: 40px 4%;
+}
+header>.interface{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header a{
+    color:#b2974d;
+    text-decoration: none;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 25px;
+}
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    gap: 85px;
+    align-items: center;
+    justify-content: center;
+}
+.topo-do-site h1{
+    color:#b2974d;
+    font-size: 40px;
+}
+.topo-do-site .textodotopo h1 span{
+    color:#b2974d;
+    font-size: 40px;
+}
+.topo-do-site .textodotopo p{
+    color: white;
+    font-size: 20px;
+
+}
+   /*Inicio sobre mim*/ 
+
+section.Sobre-mim{
+    padding: 40px 4%;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #49463d;
+}
+section.Sobre-mim .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.Sobre-mim .textosobre{
+    color: rgb(255, 255, 255);
+}
+.Sobre-mim .textosobre h2{
+    font-size: 40px;
+    color: #b2974d;
+    line-height: 40px;
+    text-align: center;
+}
+
+.Sobre-mim .textosobre p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}/*fim sobre*/
+/*formaçao*/
+section.Formacao-educacional{
+    padding: 40px 4%;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #49463d;
+}
+section.Formacao-educacional .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.Formacao-educacional .Formacao-ed{
+    color: white;
+}
+
+.Formacao-educacional .Formacao-ed h2{
+    font-size: 40px;
+    color: #b2974d;
+    line-height: 40px;
+    text-align: center;
+}
+
+.Formacao-educacional .Formacao-ed p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+.Formacao-educacional .imgFormacao img{
+    border-radius: 50px;
+}
+/*formaçao fim*/
+/*Portfolio*/
+
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #49463d;
+
+}
+section.portfolio .flex{
+    justify-content: space-around;
+}
+.portfolio a img {
+    width: 360px;
+    height: 460px;
+    background-color: #49463d;
+    border-radius: 30px;
+}
+.portfolio  h2{
+    font-size: 40px;
+    color: #b2974d;
+    line-height: 40px;
+    text-align: center;
+}
+/*Portfolio fim*/
+section.formulario{
+    padding: 80px 4%;
+}
+.formulario h2{
+    font-size: 40px;
+    color: #b2974d;
+    margin: 40px;
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #49463d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form input::placeholder{
+    color: white;
+}
+form textarea::placeholder{
+    color: white;
+}
+form textarea{
+    resize: none;
+    max-height: 800px;
+}
+form .formenviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .formenviar input{
+    width: 120px;
+    background-color: #49463d;
+    color: #fefefe;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer{
+    padding: 10px 4%;
+    box-shadow: 0 0 40px 10px #49463d;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .rodape p{
+    padding-top: 90px;
+}
+footer .rodape p a{
+    color: #fefefe;
+    font-size: 22px;
+    text-decoration: none;
+   
+    
+}
+.linhadoroda p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
